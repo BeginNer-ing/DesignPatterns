@@ -6,7 +6,7 @@ package com.study.demo.designpatterns.singleton;
  * @date 2020/4/12 22:28
  */
 public class DoubleCheck {
-    private volatile static DoubleCheck instance;
+    private  static volatile DoubleCheck instance;
 
     private DoubleCheck() {
 
